@@ -9,6 +9,7 @@ public class User {
 	private String aboutYou;
 	private String[] community;
 	private Boolean mailingList;
+
         private int i;
         
 
@@ -19,9 +20,12 @@ public class User {
 	
 	}
 
-        public int setI(int i)  {
+        public void setI(int i)  {
        		this.i = i; //this is cherry pick changes.
 	}
+
+	
+
 	public String getName() {
 		return name;
 	}
