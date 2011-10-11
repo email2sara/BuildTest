@@ -1,0 +1,43 @@
+weblogic.home.dir=C:/beahome/weblogic81
+weblogic.admin.url=t3://localhost:7001
+weblogic.managedserver.name=ManagedServer1
+weblogic.username=weblogic
+weblogic.password=password
+pkg.name=gov.nyc.doitt.crystalapple.*
+pkg.name.exclude=gov.nyc.doitt.crystalapple.hibernate.*
+
+# database properties
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+schema=portal311_L2
+schema_web=portal311_L2_web
+schema.env=local
+
+jdbc.portal311_L2.datasource.config.name=jdbc/portal311_L2DS
+jdbc.portal311_L2.datasource.jndi.name=jdbc/portal311_L2DS
+
+jdbc.portal311_L2.connectionpool.name=jdbc/portal311_L2CP
+jdbc.portal311_L2.connectionpool.property.name=portal311_L2CP
+
+jdbc.rdbms=oracle
+jdbc.rdbms.version=10g
+jdbc.driver=/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar
+jdbc.driver.class=oracle.jdbc.OracleDriver
+jdbc.url=jdbc:oracle:thin:@localhost:1522:XE
+
+jdbc.privileged.admin.userid=system
+jdbc.privileged.admin.password=etd_sys
+
+jdbc.privileged.sysdba.userid=sys as sysdba
+jdbc.privileged.sysdba.password=etd_sys
+
+jdbc.portal311_L2.userid=portal311_L2
+jdbc.portal311_L2.password=portal311_L2
+
+jdbc.portal311_L2_web.userid=portal311_L2_web
+jdbc.portal311_L2_web.password=portal311_L2_web
+
+jdbc.app.portal311_L2._web.userid=portal311_L2_web
+jdbc.app.portal311_L2._web.password=portal311_L2_web
+
+tablespace.portal311_L2.data.datafile=C:\\oraclexe\\oradata\\XE\\portal311_data.dbf
+tablespace.portal311_L2.index.datafile=C:\\oraclexe\\oradata\\XE\\portal311_indx.dbf

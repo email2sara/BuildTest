@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\Project\S3Folder\BuildSample\BuildTest\BuildTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4285260632.index
+\WarAntTest\src
+C:\Project\S3Folder\BuildSample\BuildTest\BuildTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3199451269.index
+\WarAntTest\src

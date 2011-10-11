@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Java\jdk1.5.0_12" version="1.5.0_12">
+<bootpath>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\rt.jar"/>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\i18n.jar"/>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\jsse.jar"/>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\jce.jar"/>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\charsets.jar"/>
+<entry path="C:\Java\jdk1.5.0_12\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Java\jdk1.5.0_12\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jre1.6.0_01" version="1.6.0_01">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.6.0_01\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.6.0_01\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jre6" version="1.6.0_27">
+<bootpath>
+<entry path="C:\Program Files\Java\jre6\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Program Files\Java\jre6\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre6\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre6\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

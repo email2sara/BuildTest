@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<project name="AntExample1" default="deploy">
+	<property name="dist.dir" value="${basedir}/dist" />
+	<property name="build.dir" value="${basedir}/build"/>
+	<property name="weblogic.lib" value="C:/Documents and Settings/natarajans002/My Documents/Downloads"/>
+
+	<taskdef name="wldeploy" classname="weblogic.ant.taskdefs.management.WLDeploy">
+		<classpath>
+			<pathelement location="${weblogic.lib}/weblogic.jar" />
+		</classpath>
+	</taskdef>	
+
+	<path id="compile.classpath">
+		<fileset dir="WebContent/WEB-INF/lib">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="init">
+		<mkdir dir="build/classes"/>
+		<mkdir dir="dist" />
+	</target>
+
+	<target name="compile" depends="init" >
+		<javac destdir="build/classes" debug="true" srcdir="src">
+			<classpath refid="compile.classpath"/>
+		</javac>
+	</target>
+
+	<target name="war" depends="compile">
+		<war destfile="dist/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
+			<fileset dir="WebContent"/>
+			<lib dir="WebContent/WEB-INF/lib"/>
+			<classes dir="build/classes"/>
+		</war>
+	</target>
+
+	<target name="deploy" depends="war">
+		<wldeploy action="deploy" source="${dist.dir}/AntExample.war" name="AntExample" user="weblogic" password="weblogic" verbose="true" adminurl="t3://10.153.22.86:7001" debug="true" />
+	</target>
+
+</project>
