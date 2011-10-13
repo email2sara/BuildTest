@@ -19,8 +19,8 @@ public class User {
 	
 	}
 
-	public int setI(int i)  {
-	       this.i = i;
+        public int setI(int i)  {
+       		this.i = i; //this is cherry pick changes.
 	}
 	public String getName() {
 		return name;
