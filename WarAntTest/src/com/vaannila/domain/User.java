@@ -11,12 +11,12 @@ public class User {
 	private Boolean mailingList;
         private int i;
         
-	public void getI(){
+	public int getI(){
 	       return i;
 	
 	}
 
-	public int setI(int i){
+	public int setI(int i)  {
 	       this.i = i;
 	}
 	public String getName() {
