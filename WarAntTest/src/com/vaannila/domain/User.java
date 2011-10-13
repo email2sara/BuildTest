@@ -10,7 +10,10 @@ public class User {
 	private String[] community;
 	private Boolean mailingList;
         private int i;
-
+        
+	public void getI(){
+	       return i;
+	}
 	public String getName() {
 		return name;
 	}
