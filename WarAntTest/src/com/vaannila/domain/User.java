@@ -14,7 +14,7 @@ public class User {
 	public int getI( ){// changes in experiment branch file.
 	       return i;
 	
-	}
+	 }
 
 	public int setI(int i)  {
 	       this.i = i;
