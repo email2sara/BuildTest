@@ -13,6 +13,11 @@ public class User {
         
 	public void getI(){
 	       return i;
+	
+	}
+
+	public int setI(int i){
+	       this.i = i;
 	}
 	public String getName() {
 		return name;
