@@ -11,7 +11,7 @@ public class User {
 	private Boolean mailingList;
         private int i;
         
-	public int getI(){
+	public int getI( ){// changes in experiment branch file.
 	       return i;
 	
 	}
