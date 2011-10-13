@@ -12,10 +12,8 @@ public class User {
 
         private int i;
         
-
-
 	public int getI( ){// changes in experiment branch file.
-	//This is merged result. 
+//modified file in experiment branch to check conflict
 	       return i;
 	
 	}
