@@ -12,7 +12,8 @@ public class User {
 
         private int i;
         
-	public int getI( ){// Version v.1.1.4
+
+	piblic int getI( ){// Version v.1.1.3 latest revereted from 1.1.4
 	       return i;
 	
 	}
