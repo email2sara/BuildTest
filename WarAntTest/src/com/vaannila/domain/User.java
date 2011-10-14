@@ -10,6 +10,7 @@ public class User {
 	private String[] community;
 	private Boolean mailingList;
         
+
 	private int i;
         
 	public int getI( ){// changes in experiment branch file.
