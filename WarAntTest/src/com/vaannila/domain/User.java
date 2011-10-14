@@ -13,7 +13,7 @@ public class User {
         private int i;
         
 	public int getI( ){// changes in experiment branch file.
-//modified file in experiment branch to check conflict
+// v1.1.2 modified file in experiment branch to check conflict
 	       return i;
 	
 	}
