@@ -10,7 +10,7 @@ import com.vaannila.service.UserService;
 public class UserController extends SimpleFormController {
 
 	private UserService userService;
-	public int i; // testing the merge in git 
+	public int i; // testing version v.1.1 
 	public UserController()	{
 		setCommandClass(User.class);
 		setCommandName("user");
