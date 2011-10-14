@@ -9,7 +9,8 @@ public class User {
 	private String aboutYou;
 	private String[] community;
 	private Boolean mailingList;
-        private int i;
+        
+	private int i;
         
 	public int getI( ){// changes in experiment branch file.
 	       return i;
