@@ -12,7 +12,7 @@ public class User {
 
         private int i;
         
-	public int getI( ){// Version v.1.1.3
+	public int getI( ){// Version v.1.1.4
 	       return i;
 	
 	}
