@@ -9,9 +9,7 @@ public class User {
 	private String aboutYou;
 	private String[] community;
 	private Boolean mailingList;
-        
-
-	private int i;
+        private int i;
         
 	public int getI( ){// changes in experiment branch file.
 	       return i;
@@ -45,6 +43,7 @@ public class User {
 	public void setCountry(String country) {
 		this.country = country;
 	}
+	
 	public String getAboutYou() {
 		return aboutYou;
 	}
@@ -60,6 +59,14 @@ public class User {
 	public Boolean getMailingList() {
 		return mailingList;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 	public void setMailingList(Boolean mailingList) {
 		this.mailingList = mailingList;
 	}
