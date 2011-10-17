@@ -12,8 +12,7 @@ public class UserController extends SimpleFormController {
 	private UserService userService;
 
 
-	public int i; // testing version v.1.1.3 latest
-
+	public int i; // testing version v.1.1.5
 	public UserController()	{
 		setCommandClass(User.class);
 		setCommandName("user");
